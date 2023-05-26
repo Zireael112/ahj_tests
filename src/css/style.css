@@ -1,0 +1,64 @@
+.wrapper {
+    align-items: center;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 2px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.visa-card {
+    background-image: url(../img/visa.png);
+}
+
+.master-card {
+    background-image: url(../img/master-card.png);
+}
+
+.american-express-card {
+    background-image: url(../img/american-express.png);
+}
+
+.diners-club-card {
+    background-image: url(../img/diners.png);
+}
+
+.discover-card {
+    background-image: url(../img/discover.png);
+}
+
+.JCB-card {
+    background-image: url(../img/jcb.png);
+}
+
+.mir-card {
+    background-image: url(../img/mir.png);
+}
+
+.result-valid {
+    margin-top: 15px;
+}
+
+.input-card {
+    margin-bottom: 10px;
+}
+
+.card.cdisabled {
+    opacity: .3;
+}
+
+.form-control {
+    width: 25%;
+    margin-left: 450px;
+}
